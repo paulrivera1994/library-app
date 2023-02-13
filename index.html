@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Library Project</title>
-    <script src="style.css"></script>
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <main
@@ -18,7 +18,6 @@
       <div>
         <h1>Paul's Library</h1>
         <div id="library">
-          <!-- Add table here -->
           <table id="table" style="min-width: 680px; margin: 2rem">
             <thead>
               <tr>
@@ -46,11 +45,11 @@
         </div>
         <div>
           <label for="titleInput">Title - </label>
-          <input type="text" name="title" id="titleInput"/>
+          <input type="text" name="title" id="titleInput" placeholder="Book Title"/>
         </div>
         <div>
           <label for="authorInput">Author - </label>
-          <input type="text" name="author" id="authorInput"/>
+          <input type="text" name="author" id="authorInput" placeholder="Author"/>
         </div>
         <div>
           <label for="readCheckbox">Read</label>
